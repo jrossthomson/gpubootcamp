@@ -54,7 +54,7 @@ def load_dataset(augment_fn = dummy):
     #Read CSV file using Pandas
     df = pd.read_csv('atlantic_storms.csv')
 
-    dir ='Dataset/tcdat/'
+    dir ='/content/gpubootcamp/tcdat/'
     a = os.listdir(dir)
 
     file_path = "Dataset/Aug/"
